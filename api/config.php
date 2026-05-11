@@ -37,10 +37,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit;
 }
 
-const DB_HOST = '127.0.0.1';
-const DB_NAME = 'nexuscore';
-const DB_USER = 'root';
-const DB_PASS = '';
+const DB_HOST = 'host';
+const DB_NAME = 'db_name';
+const DB_USER = 'user';
+const DB_PASS = 'db_pass';
 
 function db(): PDO
 {
