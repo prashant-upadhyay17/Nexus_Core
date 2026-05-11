@@ -17,7 +17,4 @@ function test_login($email, $password) {
     echo "Response Body:\n$body\n\n";
 }
 
-test_login('emp', 'emp123');
-test_login('admin', 'admin123');
-test_login('hr', 'admin123');
-test_login('user@nexuscore.local', 'emp123');
+
