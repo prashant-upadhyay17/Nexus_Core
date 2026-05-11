@@ -4,8 +4,8 @@ $_SERVER['HTTP_ORIGIN'] = 'http://localhost';
 require __DIR__ . '/api/config.php';
 $pdo = db();
 
-$adminHash = password_hash('admin123', PASSWORD_BCRYPT);
-$empHash = password_hash('emp123', PASSWORD_BCRYPT);
+$adminHash = password_hash('admin_pass', PASSWORD_BCRYPT);
+$empHash = password_hash('emp_pass', PASSWORD_BCRYPT);
 
 echo "Admin Hash: $adminHash\n";
 echo "Emp Hash: $empHash\n";
