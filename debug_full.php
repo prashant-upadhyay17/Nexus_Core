@@ -26,6 +26,3 @@ function test_dashboard($email, $password) {
     
     unlink($cookie_file);
 }
-
-test_dashboard('emp', 'emp123');
-test_dashboard('admin', 'admin123');
