@@ -3,8 +3,8 @@ $_SERVER['REQUEST_METHOD'] = 'GET';
 require __DIR__ . '/api/config.php';
 $pdo = db();
 
-$adminPass = 'admin123';
-$empPass = 'emp123';
+$adminPass = 'admin_pass';
+$empPass = 'emp_pass';
 
 $adminHash = password_hash($adminPass, PASSWORD_BCRYPT);
 $empHash = password_hash($empPass, PASSWORD_BCRYPT);
