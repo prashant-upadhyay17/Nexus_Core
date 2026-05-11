@@ -27,5 +27,4 @@ function test_dashboard($email, $password) {
     unlink($cookie_file);
 }
 
-test_dashboard('kabir.rao@nexuscore.local', 'emp123');
-test_dashboard('meera.iyer@nexuscore.local', 'emp123');
+
